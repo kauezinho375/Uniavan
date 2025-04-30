@@ -1,0 +1,31 @@
+// atoi: string para inteiro
+// atof: string para ponto flutuante
+
+Usando a função atof()
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+char minhaStringDouble[4] = "2.3";
+double d = atof(minhaStringDouble);
+printf("\n'O dobro de %f resulta em %f'", d, d+d );
+
+}
+
+-------------------------------------
+Usando a função atoi()
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+char minhaStringInt[4] = "50";
+int i = atoi(minhaStringInt);
+printf("\n 'A soma de %d com 10 resulta em %d'", i, i+10);
+
+}
